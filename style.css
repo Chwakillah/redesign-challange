@@ -768,5 +768,6 @@ footer {
   justify-content: center;
   bottom: 0;
   right: 0;
-  padding: 220px 0 0 0;
+  padding: 200px 0 0 0;
+  gap: 8px;
 }
