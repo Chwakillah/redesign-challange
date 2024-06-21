@@ -452,7 +452,7 @@ nav ul li a:hover {
   justify-content: center;
   align-item: center;
 }
-.quotes-wrapper button {
+.button-third {
   border-radius: 8px;
   border: 1px solid #fff;
   padding: 12px 20px;
@@ -633,7 +633,7 @@ nav ul li a:hover {
 .gallery-card-img {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 .gallery-text-wrapper {
   display: flex;
@@ -647,8 +647,51 @@ nav ul li a:hover {
   gap: 12px;
   color: var(--Primary500, #4286f5);
   font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
+/* contact */
+#contact {
+  position: relative;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 100px 72px;
+  background-color: var(--blue-500);
+  justify-content: center;
+  align-items: center;
+}
+.contact-wrapper h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0 0 48px 0;
+}
+.contact-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-logo-contact-wrapper {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.logo-contact-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* footer */
 footer {
   display: flex;
@@ -658,7 +701,7 @@ footer {
 .footer-wrapper {
   color: var(--text);
   display: flex;
-  gap: 285px;
+  gap: 250px;
   height: 240px;
   weight: 1840px;
 }
@@ -721,8 +764,8 @@ footer {
   font-size: 16px;
   font-weight: 500;
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
   bottom: 0;
   right: 0;
   padding: 220px 0 0 0;
